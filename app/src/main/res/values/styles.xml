@@ -1,0 +1,20 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+  </style>
+
+  <!-- 导航栏透明(配合colorPrimaryDark颜色半透实现效果) -->
+  <style name="AppTheme.TranslucentStatus" parent="AppTheme">
+    <item name="colorPrimaryDark">#600094cc</item>
+    <!-- 状态栏透明(状态栏会浮动在界面上面) -->
+    <item name="android:windowTranslucentStatus">false</item>
+    <!-- 导航栏透明 -->
+    <item name="android:windowTranslucentNavigation">true</item>
+  </style>
+
+</resources>

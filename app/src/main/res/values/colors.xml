@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">#40c4ff</color>
+  <color name="colorPrimaryDark">#0094cc</color>
+  <color name="colorAccent">#f06292</color>
+  <!-- 地图上的轨迹线段标签背景 -->
+  <color name="trackLabelBackground">#80ffffff</color>
+  <!-- 地图上的轨迹线段标签文字 -->
+  <color name="trackLabel">#212121</color>
+  <!-- 地图上的轨迹线段 -->
+  <color name="trackPolyline">#cc00838f</color>
+  <!-- 记录中的轨迹线段 -->
+  <color name="trackPolylineRecord">#cc4dd0e1</color>
+  <!-- 编辑中的轨迹线段 -->
+  <color name="trackPolylineEdit">#00acc1</color>
+  <!-- 地图上的位置标签背景 -->
+  <color name="placeLabelBackground">#80ffffff</color>
+  <!-- 地图上的位置标签文字 -->
+  <color name="placeLabel">#2e7d32</color>
+  <!-- 地图上的搜索标签文字 -->
+  <color name="searchLabel">#ff3300</color>
+  <!-- 地图上的跟踪地点标记线段 -->
+  <color name="starPolyline">#ccff3300</color>
+</resources>
